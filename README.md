@@ -46,19 +46,3 @@ Representative compression results, using
 For these results, we validate that all package tests still run and pass,
 with the minified source code. For the full compression tables, speed results,
 and package validation, see [benchmarks/README.md](./benchmarks/README.md).
-
-# Installation
-
-## Pip
-
-```bash
-python3 -m pip install pymini
-```
-
-## From source
-
-```bash
-git clone https://github.com/alvinwan/pymini.git
-cd pymini
-python3 -m pip install -e ".[dev]"
-```
